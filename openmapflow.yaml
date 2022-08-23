@@ -1,0 +1,10 @@
+version: 0.1.4
+project: umd_bk
+description: lets try
+gcloud:
+    project_id: rcmrd-workshop-test
+    location: us-central1
+    bucket_labeled_eo: umd_bk-labeled-eo
+    bucket_inference_eo: umd_bk-inference-eo
+    bucket_preds: umd_bk-preds
+    bucket_preds_merged: umd_bk-preds-merged
