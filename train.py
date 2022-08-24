@@ -11,8 +11,8 @@ from datasets import datasets
 from sklearn.metrics import (
     accuracy_score,
     f1_score,
-    precision_score,
-    recall_score,
+    precision_score, #user accuracy
+    recall_score, #producer accuracy
     roc_auc_score,
 )
 from torch.utils.data import DataLoader
@@ -39,7 +39,7 @@ parser = ArgumentParser()
 parser.add_argument("--model_name", type=str, default="")
 parser.add_argument("--start_month", type=str, default="February")
 parser.add_argument("--batch_size", type=int, default=64)
-parser.add_argument("--upsample_minority_ratio", type=float, default=0.5)
+parser.add_argument("--upsample_minority_ratio", type=float, default=0.8)
 parser.add_argument("--lr", type=float, default=0.001)
 parser.add_argument("--epochs", type=int, default=10)
 
