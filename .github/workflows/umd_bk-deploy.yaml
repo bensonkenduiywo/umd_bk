@@ -6,7 +6,7 @@ name: umd_bk-deploy
 on:
   push:
     branches: [ main ]
-    paths: 'data/models.dvc'
+    # paths: 'data/models.dvc'
 
 jobs:
   deploy: 
