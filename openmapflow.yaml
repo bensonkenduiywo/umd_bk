@@ -1,5 +1,5 @@
 version: 0.1.5
-project: umd_bk
+project: umd-bk
 description: lets try
 gcloud:
     project_id: rcmrd-workshop-test
